@@ -20,7 +20,7 @@ function traverse(root, result) {
     //base case
   if (!root) return;
   result.push(root.val);
-    //resursion
+    //recursion
   traverse(root.left, result);
   traverse(root.right, result);
 };
